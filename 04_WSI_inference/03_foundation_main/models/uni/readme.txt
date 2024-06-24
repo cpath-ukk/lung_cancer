@@ -1,0 +1,1 @@
+Here original checkpoint (hugging face) of UNI model should be placed

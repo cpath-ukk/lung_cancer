@@ -1,0 +1,1 @@
+Here a tissue detection model should be placed (in our case - another segmentation model developed previously)

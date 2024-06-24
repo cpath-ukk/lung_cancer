@@ -1,0 +1,1 @@
+Here original checkpoint (hugging face) of Prov-GigaPath model should be placed

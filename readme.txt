@@ -1,8 +1,7 @@
 Reference of provided code
 
 NB! We provide raw working scripts used for the development and implementation.
-Upon publications we will comprehensively annotate and prepare code
-for end users.
+Upon publication we will annotate and prepare code for end users.
 
 NB! Most of the experiments and scripts were run in anaconda environment
 using Ubuntu 22.04. We recommend using this setup.

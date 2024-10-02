@@ -6,12 +6,12 @@ Upon publication we will annotate and prepare code for end users.
 NB! Most of the experiments and scripts were run in anaconda environment
 using Ubuntu 22.04. We recommend using this setup.
 
-##01_qupath_patch_extraction
+## 01_qupath_patch_extraction
 This a Groovy script for use with QuPath v. > 0.3 for extraction of training
 or validation/test patches and associated segmentation masks (ground truth
 from annotations).
 
-##02_train_pixel_wise_segmentation
+## 02_train_pixel_wise_segmentation
 train_script.py: This is a training script.
 It was used with the Python v.3.9
 and pytorch v.1.10.
@@ -22,11 +22,11 @@ pytorch_toolbelt is used for construction of some of the loss functions (v.0.6.3
 dataset_v2.py: Helper script for dataset construction and data augmentation.
 Albumentations package (v1.3.0) was used for data augmentation.
 
-##03_Patch_level_validation_testing
+## 03_Patch_level_validation_testing
 This is a Python script for additional validation or test of the trained checkpoints
 using patch-level metrics of segmentation accuracy (Dice score and IoU).
 
-##04_WSI_inference
+## 04_WSI_inference
 This is an inference script to process the whole-slide images (WSI).
 
 Three versions are available: 1) for main segmentation algorithm (uses
@@ -63,7 +63,7 @@ wsi_colors.py defined scheme)
 The output txt file with processed slides will be saved.
 For subtyping versions it will include subtype areas and final slide classification.
 
-##05_foundation_model_classifier_training
+## 05_foundation_model_classifier_training
 Scripts for training a supervised classifier for lung cancer subtyping
 based on features extracted by foundation models.
 
@@ -77,7 +77,7 @@ for training script.
 Training script that trains a fully connected layer and a classification layer
 upon the extracted features.
 
-##06_foundation_model_classifier_test_patch_level
+## 06_foundation_model_classifier_test_patch_level
 Test script for patch-level accuracy evaluation of classifiers that
 are based on the foundation models (from ##5 step above).
 Output: "probability" of subtype at patch-level
